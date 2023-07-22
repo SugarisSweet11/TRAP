@@ -1,0 +1,387 @@
+.topbar{
+    background-color: brown;
+    width:100%;
+    height:50px;
+    
+}
+*{
+    margin:0px;
+    padding: 0px;
+}
+.ctopbar{
+    width:50%;
+    float:left;
+    
+}
+.ctopbar a{
+    text-decoration: none;
+    color: beige;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+letter-spacing: 0.4px;
+}
+.ctopbar ul li,.navigation ul li{
+    display: inline;
+    padding-right: 20px;
+
+    
+}
+.ctopbar button{
+    float:right;
+    background-color:rgb(49, 94, 239);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:aliceblue;
+    margin-right: 40px;
+    border:none;
+    width:200px;
+    height:50px;
+}
+.ctopbar button:hover{
+    background-color:rgb(49, 49, 182) ;
+}
+.navbar{
+    width:100%;
+    height:100px;
+    background-color: white;
+    border:2px solid black;
+}
+.logo{
+    width:30%;
+    height:100px;
+    float:left;
+}
+.logo img{
+    height:100px;
+    width:100%;
+}
+.navigation{
+    float:right;
+}
+.navigation a{
+    color: rgb(20, 20, 3);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    letter-spacing: 0.4px;
+    font-size: larger ;
+    
+}
+.navigation ul{
+    margin-top: 40px;
+}
+.navigation a:hover{
+    color:rgb(49, 94, 239);
+}
+.section1 img{
+    width:100%;
+    height:400px;
+}
+.section1 h1{
+    position:relative;
+    top:-200px;
+    text-align: center;
+    color: rgb(5, 4, 15);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    
+}
+.section1 h1:hover{
+    color:rgb(92, 108, 207);
+    text-shadow: 5px 4px 7px black;
+}
+.about{
+    background-color: antiquewhite;
+    margin-bottom:20px;
+}
+.about h1{
+    text-align: center;
+    color: rgb(13, 6, 54);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.about h1::before{
+    content:'';
+    background-color: gray;
+    width:1000px;
+    height:3px;
+    position:absolute;
+    top:467px;
+    right:10%;
+}
+.about h1::after{
+    content:'';
+    background-color:brown;
+    width:400px;
+    height:2px;
+    position:absolute;
+    top:464px;
+    right:35%;
+}
+marquee{
+    background-color: rgb(102, 102, 249);
+    
+}
+.about p{
+    font-size: large;
+    text-align: justify;
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+.about p a:hover{
+    color:rgb(71, 71, 191);
+}
+.about p a{
+    text-decoration: none;
+}
+.pics{
+    width:100%;
+    height:450px;
+    background-image: url(save.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: rgb(87, 79, 79);
+background-blend-mode: multiply;
+}
+.pics h1{
+    text-align: center;
+    color:rgb(37, 86, 192);
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+}
+h3{
+    color:white;
+}
+.pics ul li{
+    display: inline;
+    
+}
+.cpics{
+    float:left;
+    width:33.33%;
+    height:350px;
+    
+    
+}
+.pics ul{
+    padding:20px;
+}
+.pics ul li img{
+    width:140px;
+    height:140px;
+    border-radius: 80px;
+    padding-top: 10px;
+    
+}
+.pics ul li img:hover{
+    border-radius: 0px;
+}
+.pics ul li{
+    text-align: center;
+    
+}
+.pics button{
+    background-color:rgb(49, 94, 239);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:aliceblue;
+    margin-right: 40px;
+    border:none;
+    width:200px;
+    height:50px;
+    
+}
+.pics button:hover{
+    background-color: rgb(31, 31, 190);
+}
+.footer{
+    background-color: #010909;
+    width:100%;
+    height:50px;
+}
+
+.cfooter p{
+    color:white;
+    padding-top: 10px;
+    padding-left: 10px;
+    text-align: center;
+    
+}
+.info{
+    background-color: lightgrey;
+    width:100%;
+    height:500px;
+}
+header{
+    width:100%;
+    position:fixed;
+    top:0px;
+z-index: 3;
+    
+}
+.fit{
+    position: absolute;
+    top:150px;
+    z-index: 1;
+}
+.image{
+    width:50%;
+    float:left;
+
+}
+.image img{
+    width:100%;
+    height:500px;
+    
+}
+.form{
+    width:50%;
+    float:left;
+    justify-content: center;
+    
+    background-color:gray;
+
+    padding-bottom:10px;
+}
+.form form{
+    float:right;
+    margin-right: 100px;
+    border: 2px solid black;
+    
+        width: 400px;
+        height: 440px;
+    
+        color: rgb(16, 16, 2);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 0.4px;
+        border-radius: 1px;
+        background: rgb(182, 189, 228);
+    
+}
+.hfooter{
+    width:100%;
+    height:150px;
+    
+    
+}
+.chfooter{
+    width:30%;
+    float:right;
+    text-align: center;
+    border:1px solid rgb(10, 1, 1);
+    border:1px solid white;
+    border-bottom:3px solid rgb(40, 33, 135);
+    margin-right: 10px;
+    margin-left: 10px;
+padding-top: 30px;
+padding-bottom: 30px;
+}
+.chfooter a{
+    
+    font-size: larger;
+    text-decoration: none;
+    font-weight: 200;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: antiquewhite;
+}
+.chfooter p{
+    color:white;
+}
+.chfooter a:hover{
+    background-color: rgb(10, 2, 2);
+}
+.footer-item ul li{
+    display:inline;
+}
+.whole{
+    width:100%;
+    height:400px;
+    background-image: url(save2.jpeg);
+    background-repeat: no-repeat;
+    background-color:rgb(44, 41, 41);
+background-blend-mode: multiply;
+background-size: 100%;
+}
+.four{
+    width:100%;
+    height:250px;
+}
+.cfour{
+    width:25%;
+    height:250px;
+    float:left;
+    color:white;
+    
+    
+
+}
+.cfour span{
+    color:blue;
+}
+.cfour h2{
+    
+    margin-right: 10px;
+    margin-left: 10px;
+    text-align: center;
+    color:white;
+    font-size: larger;
+    font-weight: 200;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.cfour p{
+    margin-right: 20px;
+    margin-left: 20px;
+    text-align: justify;
+}
+.list{
+    text-align: center;
+    list-style-position: inside;
+    text-align: justify;
+    padding-left: 100px;
+    
+}
+.final{
+    list-style-type: none;
+    padding-left: 100px;
+}
+.cfour li{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.blue{
+    width:100%;
+    height:250px;
+    background-color: rgb(40, 33, 135);
+    border:2px solid black;
+}
+.cblueone{
+    width:70%;
+    float:left;
+}
+.cbluetwo{
+    width:30%;
+    float:left;
+
+}
+.cbluetwo button{
+    float:left;
+    background-color:rgb(40, 33, 135) ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:aliceblue;
+    margin-right: 40px;
+    border:none;
+    width:200px;
+    height:50px;
+    border:2px solid white;
+    margin-top: 100px;
+}
+.cbluetwo button:hover{
+background-color: blue;
+}
+.cblueone p{
+    margin-top: 80px;
+
+    color:rgb(252, 246, 246);
+    text-align: center;
+    font-size: xx-large;
+    font-weight:bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+
